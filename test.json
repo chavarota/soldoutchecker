@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "sku": "63fc1c043b982a05a831650c",
+  "productID": "63fc1c043b982a05a831650c",
+  "name": "Women&#x27;s OSO Casuals Jeans",
+  "image": "https://di2ponv0v5otw.cloudfront.net/posts/2023/02/26/63fc1c043b982a05a831650c/m_63fc1c3bb635f89af2b63b05.jpg",
+  "description": "Women&#x27;s Size 10 0S0 Casuals jeans in used condition. Inseam 30.",
+  "category": "Women&lt;Jeans",
+  "color": "",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "6.0",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/UsedCondition",
+    "url": "https://poshmark.com/listing/Womens-OSO-Casuals-Jeans-63fc1c043b982a05a831650c"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "oso casuals"
+  },
+  "metadata": {
+    "store": "poshmark",
+    "unix_timestamp": "1677466853",
+    "hash": "0013d7869ae218b8ca227d9ae1ee8a4f"
+  },
+  "image_urls": [
+    "https://di2ponv0v5otw.cloudfront.net/posts/2023/02/26/63fc1c043b982a05a831650c/m_63fc1c3bb635f89af2b63b05.jpg"
+  ],
+  "images": [
+    {
+      "url": "https://di2ponv0v5otw.cloudfront.net/posts/2023/02/26/63fc1c043b982a05a831650c/m_63fc1c3bb635f89af2b63b05.jpg",
+      "path": "full/961ef584c8f5ea56320fa2fc3d59e15e5a5bc191.jpg",
+      "checksum": "21005c07d546676fa95ef10f81215f69",
+      "status": "downloaded"
+    }
+  ]
+}
