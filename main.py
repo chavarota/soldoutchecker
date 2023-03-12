@@ -4,6 +4,8 @@ import json
 def isSold(product: dict) -> bool:
     if product["metadata"]["store"] == "poshmark":
         r = requests.get('https://poshmark.com/vm-rest/posts/' + product['productID']).json()
+        if 'error' in r:
+            return True
         sold_string = r['inventory']['status']
         return sold_string == 'sold_out'
     if product["metadata"]["store"] == "depop":
