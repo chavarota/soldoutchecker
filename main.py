@@ -6,6 +6,10 @@ def isSold(product: dict) -> bool:
         r = requests.get('https://poshmark.com/vm-rest/posts/' + product['productID']).json()
         sold_string = r['inventory']['status']
         return sold_string == 'sold_out'
+    if product["metadata"]["store"] == "depop":
+        r = requests.get('https://webapi.depop.com/api/v2/product/' + product['offers']['url'].split('/')[-1]).json()
+        sold_string = r["status"]
+        return sold_string != "ONSALE"
     
 
 #testing
